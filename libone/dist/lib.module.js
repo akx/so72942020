@@ -1,0 +1,2 @@
+import{useState as o,useEffect as r}from"react";import{jsx as n,jsxs as t}from"react/jsx-runtime";var e=function(){var e=o([]),a=e[0],i=e[1],c=["Item 1","Item 2","Item 3"];r(function(){console.log("data from plugin"),m()},[]);var m=function(){console.log("Data from load data from plugin"),i(c)};/*#__PURE__*/return n("div",{className:"dropdown",children:/*#__PURE__*/t("select",{children:[" ",a.map(function(o,r){/*#__PURE__*/return n("option",{children:o},r)})," "]})})};export{e as TestApp};
+//# sourceMappingURL=lib.module.js.map
