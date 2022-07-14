@@ -1,2 +1,0 @@
-var e=require("react"),r=require("react/jsx-runtime");exports.TestApp=function(){var t=e.useState([]),n=t[0],o=t[1],a=["Item 1","Item 2","Item 3"];e.useEffect(function(){console.log("data from plugin"),c()},[]);var c=function(){console.log("Data from load data from plugin"),o(a)};/*#__PURE__*/return r.jsx("div",{className:"dropdown",children:/*#__PURE__*/r.jsxs("select",{children:[" ",n.map(function(e,t){/*#__PURE__*/return r.jsx("option",{children:e},t)})," "]})})};
-//# sourceMappingURL=lib.js.map
